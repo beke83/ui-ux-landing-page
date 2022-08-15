@@ -4,7 +4,6 @@ import './article.css';
 const Article = ({ imgUrl, date, title }) => (
   <div className="gpt3__blog-container_article">
     <div className="gpt3__blog-container_article-image">
-      {/* <iframe src={imgUrl} frameborder="0"></iframe> */}
       <img src={imgUrl} alt="blog_image" />
     </div>
     <div className="gpt3__blog-container_article-content">
