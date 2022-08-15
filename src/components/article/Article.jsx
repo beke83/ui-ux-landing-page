@@ -4,7 +4,10 @@ import './article.css';
 const Article = ({ imgUrl, date, title }) => (
   <div className="gpt3__blog-container_article">
     <div className="gpt3__blog-container_article-image">
-      <img src={imgUrl} alt="blog_image" />
+      {/* <img src={imgUrl} alt="blog_image" /> */}
+      <video controls="controls" width={327.34} height={130.47}>
+        <source src={imgUrl} type="video/mp4" />
+      </video>
     </div>
     <div className="gpt3__blog-container_article-content">
       <div>
